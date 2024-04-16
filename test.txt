@@ -1,2 +1,2 @@
 This file aims to tested the typo action.
-We can doubble check this issue.
+We can doubble check this issue. // LinkeInfo is test sting.
