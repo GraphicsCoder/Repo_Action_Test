@@ -5,7 +5,7 @@ jobs:
   run:
     name: typos
     runs-on:
-        group: "ubuntu-latest"
+        group: ubuntu-runners
         labels: OGLP
     steps:
     - name: Checkout Repository
