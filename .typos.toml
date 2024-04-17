@@ -1,0 +1,44 @@
+# For information about the config format, see https://github.com/crate-ci/typos
+
+[files]
+extend-exclude = ["../../icd/appopt/ShaderReplacement/Shaders/", "../../icd/imported/", "../../icd/include/AMDX", "../../icd/include/devext", "../../icd/include/GL", "../../icd/include/GLES", "../../icd/include/KHR", "../../icd/include/sdk-1.2", "../../icd/include/sdk-1.3", "../../icd/include/VDPAU", "../../icd/include/d3dkmthkwrap.h", "../../icd/wsi/libgl*", "../../icd/wsi/platforms", "../../icd/gputexdecoder/shaders"]
+
+[default.extend-identifiers]
+# Needs to be fixed in xgl first
+TARGET_ARCHITECTURE_ENDIANESS = "TARGET_ARCHITECTURE_ENDIANESS"
+tese = "tese"
+fo = "fo"
+ANDed = "ANDed"
+UE = "UE"
+OpBuildNDRange = "OpBuildNDRange"
+serDataNode = "serDataNode"
+
+[default.extend-words]
+ba = "ba"
+lod = "lod"
+OLT = "OLT"
+inout = "inout"
+RELA = "RELA"
+USCALED = "USCALED"
+Datas = "Datas"
+HSA = "HSA"
+VALU = "VALU"
+countr = "countr"
+
+# gl entries which are valid
+Enabledi = "Enabledi"
+Indexs = "Indexs"
+
+# Need to be fixed in compiler submodule as well later
+Varing = "Varing"
+Combinded = "Combinded"
+Interm = "Interm"
+
+# Need to be fixed in pal submodule as well later
+supress = "supress"
+
+# other valid words
+nd = "nd"
+unknwn = "unknwn"
+dota = "dota"
+Tese = "Tese"

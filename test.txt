@@ -1,0 +1,2 @@
+This file aims to test the typo action.
+LinkeInfo is a test sting.
