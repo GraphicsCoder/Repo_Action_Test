@@ -4,9 +4,7 @@ on: [pull_request]
 jobs:
   run:
     name: typos
-    runs-on:
-        group: ubuntu-runners
-        labels: OGLP
+    runs-on: [OGLP, ubuntu-latest]
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
